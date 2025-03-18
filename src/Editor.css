@@ -1,0 +1,33 @@
+/* Editor.css */
+.editor-page {
+  padding: 20px;
+  position: relative;
+}
+
+.editorContainer {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.highlight {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+/* Popup styling to match original appearance */
+.popup {
+  position: absolute;
+  padding: 10px 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  white-space: nowrap;
+}
+.popup button {
+  margin-top: 10px;
+  cursor: pointer;
+}
